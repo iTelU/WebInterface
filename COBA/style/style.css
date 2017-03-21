@@ -1,0 +1,126 @@
+.body {
+    padding : 0px;
+    margin : 0px;
+    display : block;
+    background-image: url("../assets/tes.png");
+    background-color: #cccccc;
+}
+.body1 {
+    padding : 0px;
+    margin : 0px;
+    display : block;
+}
+
+.transLeft{
+    background-color: #ffffff;
+    opacity: 0.75;
+    width: 50%;
+    padding: 15px 30px;
+
+}
+
+.transRight{
+    background-color: black;
+    width: 100%;
+}
+.fontHeader{
+    font-family:Julius Sans One;
+    font-size:24px;
+}
+.fontSubContent{
+    font-family:Roboto;
+    font-size:20px;
+}
+.fontContent{
+    font-family:Roboto;
+    font-size:13px;
+}
+.option{
+    margin: 5px 0;
+    color: #9e9e9e;
+    padding: 10px 10px 10px;
+    display: inline-block;
+    border: 1px solid #9e9e9e;
+    font-size:12px;
+}
+
+input[type=text]{
+    margin: 5px 0;
+    color: #c2c2d6;
+    padding: 10px 10px 10px;
+    display: inline-block;
+    border: 2px solid black;
+	border-radius: 25px;
+    font-size:12px;
+}
+input[type=password]{
+    margin: 5px 0;
+    color: #c2c2d6;
+    padding: 10px 10px 10px;
+    display: inline-block;
+    border: 2px solid black;
+	border-radius: 25px;
+    font-size:12px;
+}
+.btnaction{
+    background-color: white;
+    color: #9e9e9e;
+    width: 100%;
+    padding: 15px;
+    display: inline-block;
+    border: 1px solid #9e9e9e;
+    cursor: pointer;
+}
+.btnaction:hover{
+    background-color: #c2c2d6;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    display: inline-block;
+    border: 1px solid #c2c2d6;
+    cursor: pointer;
+}
+.btnsubmit{
+    background-color: white;
+    color: #9e9e9e;
+    width: 90%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 1px solid #9e9e9e;
+	border-radius: 25px;
+    cursor: pointer;
+}
+.btncontent{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0px;
+    cursor: pointer;
+}
+.btnsubmit:hover{
+
+    background-color: #c2c2d6;
+    color: white;
+    width: 90%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 1px solid #c2c2d6;
+    cursor: pointer;
+}
+.btnsearch{
+    background-color: white;
+    color: #9e9e9e;
+    padding: 2%;
+    display: inline-block;
+    border: 1px solid #9e9e9e;
+    cursor: pointer;
+}
+.btnsearch:hover{
+    background-color: #ffc107;
+    color: white;
+    padding: 2%;
+    display: inline-block;
+    border: 1px solid #ffc107;
+    cursor: pointer;
+}
